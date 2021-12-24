@@ -1,0 +1,56 @@
+
+/*==========ESTUDIOS===========*/
+
+  article {
+            ul {
+                    li{
+                        list-style-type: square;
+                    }
+                }
+            }
+            
+  .flex-items{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .acordion-estudios{
+  
+    margin: 10px;
+  }
+  
+  
+  
+  .margin20{
+    margin: 20px;
+  }
+  
+  .iframe{
+    @include flex(flex,row,center);
+    
+    grid-area: iframe;
+    width: 100%;
+  }
+  .trans{
+    animation-name: estudios;
+    animation-duration: 2s;
+    
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+  
+    
+  }
+  @keyframes estudios{
+    0%{margin-left: 0;}
+    10%{margin: 0;}
+  
+    25%{margin-left: 40px;}
+    50%{margin-left: 40px;}
+  
+    50%{margin-right: 40px;}
+    75%{margin-right:40px}
+  
+    75%{margin-right: 0;}
+    100%{margin-right: 0;}
+  }
+  

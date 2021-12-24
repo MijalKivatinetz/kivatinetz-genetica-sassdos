@@ -1,0 +1,27 @@
+//index&general&laboratorio//
+$color-borde-gris: #272D2D;
+$color-fondo: aliceblue;
+
+
+//nav & index & laboratorio &contacto//
+$border-img: solid 2px black;
+
+//index & laboratorio//
+$width-img: 250px;
+//index & laboratorio & contacto//
+$lab-p-margin:20px; 
+
+//media-queries//
+
+$media-queries-img-width:150px;
+
+//general//
+
+@mixin flex ($flex,$direction, $justify-content) {
+
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+  
+  }
+$h1:4em;
